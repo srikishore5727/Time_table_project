@@ -1,0 +1,38 @@
+body{
+  background-color: rgb(255, 230, 234);
+}
+table tr th{
+  border-collapse: collapse;
+  color:white;
+  background-color: rgb(224, 10, 10);
+  
+  
+}
+table,th,tr,td{
+  padding: 18px;
+  
+}
+table{
+  border-collapse: collapse;
+  position: relative;
+  margin: auto;
+  margin-top:10px;
+  background-color: white;
+}
+
+caption{
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  margin:20px;
+  font-size:large;
+}
+tr:nth-child(odd){
+  background-color: rgb(227, 225, 225);
+  /* border: 1px solid gray; */
+}
+#lunch{
+  font-weight: bolder;
+  text-align: center;
+  font-size: x-large;
+}
